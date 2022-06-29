@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class ="join">
+     <h2> JOIN MEMBER </h2>
+      <form action="">
+        <div class="int">
+            <input type = "text" name="id" id="id">
+            <label for = "id"> USER ID </label>
+        </div>
+        <div class="int">
+            <input type = "password" name="pw" id="pw">
+            <label for = "pw"> PASSWORD </label>
+        </div>       
+        <div>
+            <input type = "radio" name="check_sex" value="M" checked="checked"> MAN
+            <input type = "radio" name="check_sex" value="F"> WOMAN
+        </div>
+        <div>
+            <input type = "text" placeholder="YEAR(xxxx)" name = "year" >
+            <select name = "month">
+                <option value = "1" selected> JAN </option>
+                <option value = "2" selected> FEB </option>
+                <option value = "3" selected> MAR </option>
+                <option value = "4" selected> APR </option>
+                <option value = "5" selected> MAY </option>
+                <option value = "6" selected> JUNE </option>
+                <option value = "7" selected> JULY </option>
+                <option value = "8" selected> AUG </option>
+                <option value = "9" selected> SEPT </option>
+                <option value = "10" selected> OCT </option>
+                <option value = "11" selected> NOV </option>
+                <option value = "12" selected> DEC </option>
+            </select>
+            <input type = "text" placeholder ="DAY" style=" width : 50px"> BIRTHDAY
+        </div>
+        <div>
+            <select name = "phone">
+                <option value = "SKT" selected> SKT </option>
+                <option value = "KT" selected> KT </option>
+                <option value = "LG U+" selected> LG U+ </option>
+            </select>
+            <input type ="text" placeholder = "010-xxxx-xxxx">
+            <input type = "button" value="CONFIRM"> PHONE
+            
+                
+        </div>
+
+        <div class="button">
+            <button type="submit">JOIN</button>
+        </div>
+        
+        
+      </form>
+    </section>
+</body>
+</html>
